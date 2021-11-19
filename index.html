@@ -1,16 +1,70 @@
-<!doctype html>
+<!DOCTYPE html>
 
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+	<meta name="description" content="Moovin">
     <title>Moovin</title>
-    <meta name="description" content="Moovin">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <!-- Write your code here -->
+    <header>
+        <nav class="navBar">
+            <ul class="navBarMenu">
+                <li><img src="./imagens/phone.png">(51) 9 9920 0350</li>
+                <li><i class="fa fa-whatsapp" aria-hidden="true"></i>(51) 9 9920 0350</li>
+                <li>LISTA DE DESEJOS</li>
+                <li>FALE CONOSCO</li>
+                <li>TROCAS E DEVOLUÇÕES</li>
+            </ul>
+            <div class="navBarMobile">
+                <input type="checkbox" />
+                <span class="linha1"></span>
+                <span class="linha2"></span>
+                <span class="linha3"></span>
+
+                <ul class="navBarMenuMobile">
+
+                    <li><img src="./imagens/phone.png">(51) 9 9920 0350</li>
+                    <li><i class="fa fa-whatsapp" aria-hidden="true"></i>(51) 9 9920 0350</li>
+                    <li>LISTA DE DESEJOS</li>
+                    <li>FALE CONOSCO</li>
+                    <li>TROCAS E DEVOLUÇÕES</li>
+                </ul>
+            </div>
+        </nav>
+        <section class="searchBar">
+            <div class="searchBarContainer">
+                <span>
+                    <img src="./imagens/logo.png">
+                </span>
+                <span>
+                    <input type="text" name="user" placeholder="O que você está procurando?">
+                </span>
+                <span>
+                    Entrar<i class="fa fa-chevron-down"></i>
+                    <div class="dialog">
+                        <p>Minha conta</p>
+                        <p>Meus pedidos</p>
+                        <p>Lista de desejos</p>
+                    </div>
+                </span>
+                <span>
+                    <div class="bagValor">
+                        <img src="./imagens/bag.png">
+                    </div>
+                </span>
+            </div>
+        </section>
+    </header>   
 </body>
 
 </html>
